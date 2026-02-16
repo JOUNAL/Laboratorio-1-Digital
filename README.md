@@ -71,7 +71,7 @@ Estado dinamico: En este estado, depdende mucho de la frecuencia a la cual se es
 
 TTL 74LS04:La potencia consumida del TTL es constante, ya que consume corriente incluso si no esta haciendo ningun trabajo, ya que los transistores BJT y resistencias estan constantemente consumiendo corriente, la corriente suele rondar los 33 mA, lo que nos da una potencia disipada, teniendo en cuenta 5 Vcc, de 165 mW y esto es independiente de la frecuencia a la cual este trabajando
 
-<h3>7.Determinar la potencia disipada</h3>
+<h3>7.Circuito propuesto para cada una de las tencologias</h3>
 
 <h3>8.Comportamiento de las compuertas al tener un pin al "aire"</h3>
 TTL 74LS04: Se interpreta como un 1 logico ya que la estar al aire, la corriente no puede salir, haciendo que el voltaje interno suba y el circuito asuma un nivel alto
