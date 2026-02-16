@@ -22,7 +22,7 @@ TTL 74LS04:Puede llegar a tener un retardo de propagacion de 12 ns
 CMOS CD4069:Es capaz de tener una corriente de drenaje de hasta 16mA,
 TTL 74LS04:A un voltaje de 5V, solo puede llegar a tener una corriente de salida de 0.44mA, siendo esta muy baja incluso para intentar encender un LED
 
-<h3>1.Comparacion entre los circuitos basados en el negador TTL 74LS04 y CMOS CD4069</h3>
+<h3>2.Comparacion entre los circuitos basados en el negador TTL 74LS04 y CMOS CD4069</h3>
 <h4>CMOS CD4069</h4>
 
 ![image](https://github.com/JOUNAL/Laboratorio-1-Digital/blob/main/Imagenes/Negador%20CMOS.png)
@@ -32,3 +32,5 @@ Por como se compone este circuito, podemos observar que se compone de dos transi
 
 ![image](https://github.com/JOUNAL/Laboratorio-1-Digital/blob/main/Imagenes/Negador%20TTL.png)
 El comportamiento del inveror tipo TTL es simple, si se introduce una señal baja, el transistor NPN no se prende, por lo que toda la corriente se va por la resistencia de salida, y si se envia una señal, el transistor se prende, por lo que genera un corto para la resistencia de salida, provocando un 0 logico
+
+<h3>3.Mediciones teoricas y practicas para diferentes voltajes de cada uno de los inversores</h3>
