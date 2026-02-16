@@ -75,4 +75,5 @@ TTL 74LS04:La potencia consumida del TTL es constante, ya que consume corriente 
 
 <h3>8.Comportamiento de las compuertas al tener un pin al "aire"</h3>
 TTL 74LS04: Se interpreta como un 1 logico ya que la estar al aire, la corriente no puede salir, haciendo que el voltaje interno suba y el circuito asuma un nivel alto
+
 CMOS CD4069: Debido a su impedancia casi infinita, se comporta como un condensador altamente sensible, capaz de actuar como una antena y por ende captar cual tipo de señal del entorno, lo que hace eque pueda entrar a señal alta o baja dependiendo del ruido externo
