@@ -26,30 +26,41 @@ TTL 74LS04:A un voltaje de 5V, solo puede llegar a tener una corriente de salida
 <h4>CMOS CD4069</h4>
 
 ![image](https://github.com/JOUNAL/Laboratorio-1-Digital/blob/main/Imagenes/Negador%20CMOS.png)
+
 Por como se compone este circuito, podemos observar que se compone de dos transistores MOSFET, uno con canal P y otro con canal N, y se interpreta de la siguiente de la manera, si se introduce una señal, el transistor con canal tipo P se apaga, impidiendo el paso de señal, sacando un 0 logico, y si se resive una señal baja, el transistor con canal N se prende, permitiendo la señal, sacando un 1 logico
 </p>
 <h4>TTL 74LS068 CD4069</h4>
+<img src="https://github.com/JOUNAL/Laboratorio-1-Digital/blob/main/Imagenes/Negador%20TTL.png" width=30% height=30%>
 
-![image](https://github.com/JOUNAL/Laboratorio-1-Digital/blob/main/Imagenes/Negador%20TTL.png)
 El comportamiento del inveror tipo TTL es simple, si se introduce una señal baja, el transistor NPN no se prende, por lo que toda la corriente se va por la resistencia de salida, y si se envia una señal, el transistor se prende, por lo que genera un corto para la resistencia de salida, provocando un 0 logico
 
 <h3>3.Mediciones teoricas y practicas para diferentes voltajes de cada uno de los inversores</h3>
 Para observar los voltajes de salida vamos a ver una comparacion entre el montaje experimental y teorico con el inversor CMOS CD4069
 A continuacion se ve el montaje experimental:
 
-![image](https://github.com/JOUNAL/Laboratorio-1-Digital/blob/main/Imagenes/CMOS_montaje.jpg)
+
+<img src="https://github.com/JOUNAL/Laboratorio-1-Digital/blob/main/Imagenes/CMOS_montaje.jpg" width=50% height=50%>
+
+
 Para los voltajes de salida y de entrada se observo lo siguiente
 
-![image](https://github.com/JOUNAL/Laboratorio-1-Digital/blob/main/Imagenes/CMOS_VOHL.jpg)
+
+<img src="https://github.com/JOUNAL/Laboratorio-1-Digital/blob/main/Imagenes/CMOS_VOHL.jpg" width=50% height=50%>
+
+
 Se puede evidenciar un voltaje VOH = 5V y un voltaje VOL = 0V, comprobando un funcionamiento correcto del inversor
 Y voltajes VIH = 4.24V y un voltaje VIL = 0.52V, observando que tiene un rango algo corto para cambiar de estado logico
 
 <h3>4.Mediciones de diferentes tiempos</h3>
 
-![image](https://github.com/JOUNAL/Laboratorio-1-Digital/blob/main/Imagenes/CMOS_TR.jpg)
+<img src="https://github.com/JOUNAL/Laboratorio-1-Digital/blob/main/Imagenes/CMOS_TR.jpg" width=50% height=50%>
+
+
 Se obtiene el primer timepo conocido como el tiempo de subida que nos indica cuanto tiempo tarda de pasar del 10% al 90% en el voltaje de salida al introducir un 0 logico, dando como resultado un tiempo de 383 ns
 
-![image](https://github.com/JOUNAL/Laboratorio-1-Digital/blob/main/Imagenes/CMOS_TF.jpg)
+<img src="https://github.com/JOUNAL/Laboratorio-1-Digital/blob/main/Imagenes/CMOS_TF.jpg" width=50% height=50%>
+
+
 Para el segundo tiempo conocido como tiempo de bajada que nos indica cuanto tiempo tarda de pasar del 90% al 10% en el voltaje de salida al introducir un 1 logico, dando como resultado un tiempo de 156 ns
 
 Ahora con las graficas obtenidas vemos dos tiempos mas, los tiempos de retardo, que son cuando cada una de las curvas pasa del 50%, ya sea subiendo o bajando, lo cual nos da dos tiempos, tplh = 100 ns y tphl = 77 ns
