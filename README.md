@@ -83,6 +83,11 @@ Estado dinamico: En este estado, depdende mucho de la frecuencia a la cual se es
 TTL 74LS04:La potencia consumida del TTL es constante, ya que consume corriente incluso si no esta haciendo ningun trabajo, ya que los transistores BJT y resistencias estan constantemente consumiendo corriente, la corriente suele rondar los 33 mA, lo que nos da una potencia disipada, teniendo en cuenta 5 Vcc, de 165 mW y esto es independiente de la frecuencia a la cual este trabajando
 
 <h3>7.Circuito propuesto para cada una de las tencologias</h3>
+Se propone el circuito para ver las caracteristicas de las dos tecnologias
+Para la entrada, se conecta una resistencia de 10 kOhmios al pin de entrada, y se conecta la otra terminal de la resistencia al VCC, y se conecta en paraelo un interruptorq que ira directamente a tierra
+Para la salida, se conectara un LED seguido de una resistencia de 330 ohmios
+Lo que se espera observar es que cuando el interruptor este apagado, se conectara un 1 logico a la salida, por lo que se vera que el chip TTL brillara muy fuerte, porque esta diseñado para jalar corriente, mientras que el chip CMOS brillara en una intensidad media, cuando  el interruptor este prendido, saldra un 0 logico, lo cual provocara que la salida de tecnologia TTL no brille muy fuerte, o no brille siquiera, porque el chip no esta diseñado para entregar corriente, mientras que el chip de tecnologia CMOS brillara a una intensidad media
+<img src="https://github.com/JOUNAL/Laboratorio-1-Digital/blob/main/Imagenes/Circuito_propuesta.png" width=50% height=50%>
 
 <h3>8.Comportamiento de las compuertas al tener un pin al "aire"</h3>
 TTL 74LS04: Se interpreta como un 1 logico ya que la estar al aire, la corriente no puede salir, haciendo que el voltaje interno suba y el circuito asuma un nivel alto
